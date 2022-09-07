@@ -1,10 +1,12 @@
 :root {
     --darkBlue: rgb(38, 38, 90);
     --white: white;
+    --orange: rgb(218, 142, 0);
+    --gray: gray;
 }
 
 * {
-
+    
 }
 
 header {
@@ -50,15 +52,39 @@ a:hover {
 }
 
 body {
-    background-color: rgb(212, 199, 183);   
+    background-color: rgb(0, 0, 46);   
 }
 
 main {
     margin-top: 20px;
-    background-color: rgb(225, 202, 173);
+    
+}
+
+section {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 50px 200px;
 }
 
 .about-me {
-    display: flex;
+    display: block;
+    margin: 100px 80px;
+    color: var(--gray);
+    line-height: 40px;
+    
+}
 
+h2 {
+    color: var(--white);
+    font-size: 150px;
+
+}
+
+h3 {
+
+}
+
+.description {
+    display: flex;
 }
