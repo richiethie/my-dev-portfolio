@@ -1,6 +1,6 @@
 :root {
     --darkBlue: rgb(38, 38, 90);
-    --white: white;
+    --white: rgb(199, 199, 199);
     --orange: rgb(218, 142, 0);
     --gray: gray;
 }
@@ -67,22 +67,23 @@ main {
     
 }
 
-section {
+.welcome {
     display: flex;
-    width: 1000px;
-    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 650px;
     margin: 50px 200px;
+    
 }
 
 .about-me {
     display: block;
-    margin: 80px 60px;
+    margin: 80px 60px 180px;
     padding: 15px;
     color: var(--gray);
     line-height: 60px;
-    border: solid 1px;
-    border-radius: 10px;
-    border-color: var(--orange);
+
     
 }
 
@@ -94,8 +95,81 @@ section {
 
 .text-header {
     font-size: 36px;
+    color: var(--orange);
 }
 
 .description {
     display: flex;
 }
+
+button {
+    background-color: rgb(0, 0, 46);
+    color: var(--orange);
+    border: solid 1px;
+    padding: 5px;
+    border-color: var(--orange);
+    border-radius: 5px;
+}
+
+button:hover {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+}
+
+.project-title {
+    font-size: 48px;
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.display-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+
+}
+
+.project-column { 
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 15px;
+    justify-content: center;
+    
+    height: 500px;
+    width: 31%;
+    background-color: var(--gray);
+}
+
+.project-card {
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-header {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    color: var(--orange);
+    height: 40px;
+    width: 100%;
+}
+
+.card-text {
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    color: var(--white);
+
+}
+
