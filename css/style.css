@@ -189,6 +189,7 @@ input:hover {
 }
 
 .card-link {
+    display: flex;
     text-decoration: none;
     color: var(--orange);
     font-size: 36px;
@@ -204,11 +205,16 @@ input:hover {
 
 .card-image {
     display: flex;
-    object-fit: contain;
+    justify-content: center;
+    width: 90%;
     margin: 0px 30px;
     border-radius: 30px;
     border: solid 2px;
     border-color: var(--orange);
+}
+
+.card-image:hover {
+    transform: scale(1.2);
 }
 
 footer {
