@@ -110,8 +110,10 @@ main {
     display: flex;
 }
 
-button {
-    background-color: rgb(0, 0, 46);
+form {
+    background-color: var(--darkBlue);
+    display: flex;
+    justify-content: center;
     color: var(--orange);
     width: 180px;
     border: solid 1px;
@@ -120,7 +122,19 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+input {
+    background-color: var(--darkBlue) ;
+    border: none;
+    color: var(--orange);
+    size: fill;
+}
+
+form:hover {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+input:hover {
     color: var(--white);
     border-color: var(--white);
 }
@@ -191,7 +205,7 @@ button:hover {
 .card-image {
     display: flex;
     object-fit: contain;
-    margin: 40px 30px;
+    margin: 0px 30px;
     border-radius: 30px;
     border: solid 2px;
     border-color: var(--orange);
