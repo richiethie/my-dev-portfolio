@@ -244,6 +244,18 @@ footer, p {
 }
 
 @media (max-width: 930px) {
+    * {
+        font-size: 20px;
+    }
+    li {
+        padding: 3px;
+    }
+    ul {
+        margin: 0 10px 0 10px;
+    }
+    .header-link {
+        padding: 5px;
+    }
     .display-project {
         padding: 15px;
     }
@@ -251,10 +263,16 @@ footer, p {
         flex-direction: column;
         height: 1000px;
         width: 100%;
-        margin: 10px 0px 120px;
+        margin: 10px 0px 450px;
+    }
+    .about-me {
+        line-height: 50px;
     }
     .project-column {
         width: 100%;
+    }
+    .card-link {
+        font-size: 32px;
     }
     .card-image {
         margin-top: 5px;
