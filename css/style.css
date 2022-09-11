@@ -251,7 +251,7 @@ footer, p {
 
 @media (max-width: 930px) {
     * {
-        font-size: 20px;
+        font-size: 18px;
     }
     li {
         padding: 3px;
@@ -261,6 +261,9 @@ footer, p {
     }
     .header-link {
         padding: 5px;
+    }
+    .profile-pic {
+        max-height: 300px;
     }
     .display-project {
         padding: 15px;
@@ -277,10 +280,10 @@ footer, p {
     .project-column {
         width: 100%;
     }
-    .card-link {
-        font-size: 32px;
+    .card-header {
+        font-size: 28px;
     }
     .card-image {
-        margin-top: 5px;
+        margin: 5px 0 0 15px;
     }
 }
